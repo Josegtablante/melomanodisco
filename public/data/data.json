@@ -1,0 +1,317 @@
+[
+  {
+    "id": "1",
+    "artista": "Spinetta",
+    "disco": "Jade",
+    "precio": 53000.00,
+    "stock": 5,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/602547642738_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "2",
+    "artista": "Nirvana",
+    "disco": "Nevermind",
+    "stock": 5,
+    "precio": 98000.00,
+    "genero": "Grunge",
+    "img": "https://contentv2.tap-commerce.com/cover/large/720642442517_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "3",
+    "artista": "Kevin Johansen",
+    "disco": "Sur o no sur",
+    "stock": 5,
+    "precio": 10500.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/9898034505030_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "4",
+    "artista": "Spinetta",
+    "disco": "Paez/lalala",
+    "stock": 5,
+    "precio": 13000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/094638913221_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "5",
+    "artista": "El Dante",
+    "disco": "Puñal",
+    "stock": 5,
+    "precio": 10100.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854999629_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "6",
+    "artista": "Los Tipitos",
+    "disco": "Rock nacional",
+    "stock": 5,
+    "precio": 7600.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854987923_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "7",
+    "artista": "Jovenes Pordioseros",
+    "disco": "Late",
+    "stock": 5,
+    "precio": 7600.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/88985484592_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "8",
+    "artista": "Los Autenticos Decadentes",
+    "disco": "Mi vida loca",
+    "stock": 5,
+    "precio": 42000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854783815_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "9",
+    "artista": "Charly Garcia",
+    "disco": "Say no more",
+    "stock": 5,
+    "precio": 64900.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854547516_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "10",
+    "artista": "Seru Giran",
+    "disco": "En vivo I",
+    "stock": 5,
+    "precio": 42500.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854547813_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "11",
+    "artista": "Seru Giran",
+    "disco": "En vivo II",
+    "stock": 5,
+    "precio": 42500.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854547912_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "12",
+    "artista": "Los Gatos",
+    "disco": "Seremos Amigos",
+    "stock": 5,
+    "precio": 42500.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854571214_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "13",
+    "artista": "Charly Garcia",
+    "disco": "El Aguante",
+    "stock": 5,
+    "precio": 42500.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854547615_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "14",
+    "artista": "Los Gatos",
+    "disco": "Los Gatos III",
+    "stock": 5,
+    "precio": 13000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854570910_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "15",
+    "artista": "Seru Giran",
+    "disco": "Tomalo o dejalo",
+    "stock": 5,
+    "precio": 64900.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854441012_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "16",
+    "artista": "Papo",
+    "disco": "Buscando un amor",
+    "stock": 5,
+    "precio": 23000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854265021_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "17",
+    "artista": "Soda Stereo",
+    "disco": "Caja Negra (7 LPS)",
+    "stock": 5,
+    "precio": 13000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854203412_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "18",
+    "artista": "Soda Stereo",
+    "disco": "Septimo Dia",
+    "stock": 5,
+    "precio": 43000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854207717_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "19",
+    "artista": "Charly Garcia",
+    "disco": "Ramdom",
+    "stock": 5,
+    "precio": 15000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854209827_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "20",
+    "artista": "La Beriso",
+    "disco": "En vivo en estadio Unico",
+    "stock": 5,
+    "precio": 48000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854023010_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "21",
+    "artista": "Tango",
+    "disco": "Tango",
+    "precio": 42000.00,
+    "stock": 5,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854031312_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "22",
+    "artista": "Papo Blues",
+    "disco": "Vol 4",
+    "stock": 5,
+    "precio": 9300.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889854017620_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "23",
+    "artista": "Miranda",
+    "disco": "Fuerte",
+    "stock": 5,
+    "precio": 10800.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889853955428_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "24",
+    "artista": "Ataque77",
+    "disco": "Triangulo de fuerza",
+    "stock": 5,
+    "precio": 13000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889853803125_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "25",
+    "artista": "Los Pericos",
+    "disco": "Soundamerica",
+    "stock": 5,
+    "precio": 10300.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889853827428_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "26",
+    "artista": "Ratones Paranoicos",
+    "disco": "Ratones Paranoicos",
+    "stock": 5,
+    "precio": 43000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889853640515_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "27",
+    "artista": "Enanitos verdes",
+    "disco": "Contra reloj",
+    "stock": 5,
+    "precio": 25000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889853627318_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "28",
+    "artista": "Andres Calamaro",
+    "disco": "Nadie sale vivo de aqui",
+    "stock": 5,
+    "precio": 38000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889853631810_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "29",
+    "artista": "Sumo",
+    "disco": "Fiebre",
+    "stock": 5,
+    "precio": 29500.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889853585212_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "30",
+    "artista": "Luis Alverto Spinetta",
+    "disco": "Y los socios del desierto",
+    "stock": 5,
+    "precio": 37000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889853283316_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "31",
+    "artista": "Lali",
+    "disco": "Soy",
+    "stock": 5,
+    "precio": 12000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889853235315_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "32",
+    "artista": "Almendra",
+    "disco": "Almendra 2",
+    "stock": 5,
+    "precio": 35000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889853211913_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "33",
+    "artista": "Los violadores",
+    "disco": "Mercado Indio",
+    "stock": 5,
+    "precio": 47000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/889853127917_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "34",
+    "artista": "Soda Stereo",
+    "disco": "Ruido Blanco",
+    "stock": 5,
+    "precio": 26600.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/888837904018_1.jpg?id_com=1156&back=fad2e1"
+  },
+  {
+    "id": "35",
+    "artista": "Babasonicos",
+    "disco": "Miami (LP)",
+    "stock": 5,
+    "precio": 57000.00,
+    "genero": "Rock Argentino",
+    "img": "https://contentv2.tap-commerce.com/cover/large/888837497916_1.jpg?id_com=1156&back=fad2e1"
+  }
+]
