@@ -7,7 +7,7 @@ const ProductList = () => {
 
     return (
         <>
-            <div className='Buscar'>
+            <div className='Buscar' data-aos="zoom-in-down" >
                 <input
                     type='text'
                     placeholder='Buscar disco...'
@@ -16,7 +16,7 @@ const ProductList = () => {
                     onChange={(e) => setBusqueda(e.target.value)}
                 />
             </div>
-            <div className='productlist' >
+            <div className='productlist' data-aos="zoom-in-down" >
                 {
                     productosFiltrados.map(product => (
                         <Productos key={product.id} producto={product} />

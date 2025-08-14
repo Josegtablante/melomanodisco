@@ -20,7 +20,7 @@ const Cart = () => {
     return (
         <div>
             <Button variant="primary" onClick={handleShow}>
-                Carrito {cantidadItems}
+                <ion-icon name="cart-outline"></ion-icon> {cantidadItems}
             </Button>
 
             <Offcanvas show={show} onHide={handleClose}>

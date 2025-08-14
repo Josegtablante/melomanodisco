@@ -11,7 +11,7 @@ const GaleriaDeProductos = () => {
   return (
     <>
       <Header />
-      <h1 className='h1Titulo'>Productos</h1>
+      <h1 className='h1Titulo' data-aos="zoom-in-down">Productos</h1>
       {
         cargando ? <img src={loading} alt='loading' /> :
           <ProductList />

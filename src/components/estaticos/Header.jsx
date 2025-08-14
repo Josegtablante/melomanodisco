@@ -27,7 +27,6 @@ const Header = () => {
               <li className="nav-item">
                 <NavLink className="link" to="/contacto">Contacto</NavLink>
               </li>
-              <Cart />
               <li className="nav-item">
                 <NavLink className="link" to="/login">
                   <i className="fa-solid fa-right-to-bracket"></i>
@@ -38,6 +37,7 @@ const Header = () => {
                   <i className="fa-solid fa-user-tie"></i>
                 </NavLink>
               </li>
+              <Cart />
             </ul>
           </div>
         </div>
