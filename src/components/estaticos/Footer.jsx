@@ -27,12 +27,12 @@ const Footer = () => {
       <div class="footer-center">
 
         <div>
-          <i class="fa fa-map-marker"></i>
+          <i class="fa-solid fa-location-dot"></i>
           <p><span>134 San Carlos</span> La Plata, Buenos Aires</p>
         </div>
 
         <div>
-          <i class="fa fa-phone"></i>
+          <i class="fa-solid fa-phone"></i>
           <p>+1.555.555.5555</p>
         </div>
 
@@ -52,10 +52,9 @@ const Footer = () => {
 
         <div class="footer-icons">
 
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
 
         </div>
 

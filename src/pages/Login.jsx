@@ -1,90 +1,60 @@
 import React from 'react';
-import Footer from '../components/estaticos/Footer'
 import { useAuth } from '../context/AuthContext';
+import '../login.css'
+
 const Login = () => {
 
   const { email, setEmail, password, setPassword, handleSubmit, errors } = useAuth()
 
   return (
     <>
-      <div className='login'>
-        <form
-          onSubmit={handleSubmit}
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '1rem',
-            maxWidth: '400px',
-            margin: 'auto',
-          }}
-        >
-          <div style={{ marginTop: '4rem', display: 'flex', flexDirection: 'column' }}>
-            <label htmlFor="formBasicEmail" style={{ marginBottom: '0.5rem', fontWeight: 'bold' }}>
-              Email
-            </label>
-            <input
-              id="formBasicEmail"
-              type="email"
-              placeholder="Enter email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              style={{
-                padding: '0.5rem',
-                border: `1px solid ${errors.email ? 'red' : '#ced4da'}`,
-                borderRadius: '0.25rem',
-              }}
-            />
-            {errors.email && (
-              <div style={{ color: 'red', fontSize: '0.875rem', marginTop: '0.25rem' }}>
-                {errors.email}
-              </div>
-            )}
-          </div>
+      <div className="login" onSubmit={handleSubmit}>
+        <h1>Login</h1>
+        <form method="post">
+          {/* email */}
+          <input
+            id="formBasicEmail"
+            type="email"
+            placeholder="Enter email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            style={{
+              padding: '0.5rem',
+              border: `1px solid ${errors.email ? 'red' : '#ced4da'}`,
+              borderRadius: '0.25rem',
+            }}
+          />
+          {errors.email && (
+            <div style={{ color: 'red', fontSize: '0.875rem', marginTop: '0.25rem' }}>
+              {errors.email}
+            </div>
+          )}
 
-          <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <label htmlFor="formBasicPassword" style={{ marginBottom: '0.5rem', fontWeight: 'bold' }}>
-              Password
-            </label>
-            <input
-              id="formBasicPassword"
-              type="password"
-              placeholder="Password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              style={{
-                padding: '0.5rem',
-                border: `1px solid ${errors.password ? 'red' : '#ced4da'}`,
-                borderRadius: '0.25rem',
-              }}
-            />
-            {errors.password && (
-              <div style={{ color: 'red', fontSize: '0.875rem', marginTop: '0.25rem' }}>
-                {errors.password}
-              </div>
-            )}
-          </div>
+          {/* password */}
+          <input
+            type="password"
+            name="p"
+            placeholder="Password"
+            required="required"
+            id="formBasicPassword"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          {errors.password && (
+            <div style={{ color: 'red', fontSize: '0.875rem', marginTop: '0.25rem' }}>
+              {errors.password}
+            </div>
+          )}
 
           <button
             type="submit"
-            style={{
-              backgroundColor: '#007bff',
-              color: 'white',
-              padding: '0.75rem',
-              border: 'none',
-              borderRadius: '0.25rem',
-              cursor: 'pointer',
-              fontSize: '1rem',
-            }}
-          >
-            Submit
+            className="btn-primary btn-block btn-large">
+            Let me in.
           </button>
-        </form >
-      </div >
-      <Footer />
+        </form>
+      </div>
     </>
-
   );
-
 };
 
 export default Login;
