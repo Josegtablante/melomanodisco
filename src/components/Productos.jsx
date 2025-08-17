@@ -22,9 +22,9 @@ const Productos = ({ producto }) => {
       <p className='stock'>{producto.stock}</p>
 
       <div className='cantidadContainer'>
-        <button className='qtyButton' onClick={decrease}>-</button>
+        <button className='botondeclinar' onClick={decrease}>-</button>
         <span>{cantidad}</span>
-        <button className='qtyButton' onClick={increase}>+</button>
+        <button className='botonaumentar' onClick={increase}>+</button>
       </div>
 
       <button className='addCartButton' style={{ display: cantidad == 0 ? 'none' : 'block' }} onClick={() => handleAddToCart({ ...producto, cantidad: cantidad })}>Agregar al carrito</button>

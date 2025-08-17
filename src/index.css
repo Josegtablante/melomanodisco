@@ -66,6 +66,7 @@ button:focus-visible {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 .TarjetaEquipoLab {
@@ -239,7 +240,7 @@ button:focus-visible {
   margin-bottom: 16px;
 }
 
-.qtyButton {
+.botondeclinar {
   background-color: #e0e0e0;
   border: none;
   padding: 6px 12px;
@@ -248,6 +249,27 @@ button:focus-visible {
   font-size: 18px;
   font-weight: 600;
   transition: background-color 0.2s;
+}
+
+.botondeclinar:hover {
+  background-color: #da0707;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.botonaumentar {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.botonaumentar:hover {
+  background-color: #198754;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .login {
